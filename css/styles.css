@@ -300,7 +300,10 @@ a {
 a:hover {
   color: #c34e2e;
 }
-
+#mail{
+  color: #fff;
+  padding-left: 20px;
+}
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
