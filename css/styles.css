@@ -6230,7 +6230,7 @@ textarea.form-control-lg {
 }
 
 .carousel-caption {
-  position: flex;
+  position: static;
   right: 15%;
   bottom: 1.25rem;
   left: 15%;
