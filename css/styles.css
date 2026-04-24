@@ -440,6 +440,76 @@ header.masthead .h1 {
   margin-bottom: 0.75rem;
 }
 
+/* ---------- Certificate carousel ---------- */
+
+.cert-carousel-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cert-carousel {
+  display: flex;
+  gap: 1.25rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding: 0.5rem 0;
+  flex: 1;
+}
+
+.cert-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.cert-card {
+  flex: 0 0 280px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.cert-card i,
+.cert-card svg {
+  color: #f4623a;
+}
+
+.cert-card p {
+  flex: 1;
+}
+
+.cert-issuer {
+  display: block;
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-bottom: 0.75rem;
+}
+
+.cert-carousel-btn {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #dee2e6;
+  background: #fff;
+  color: #343a40;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.cert-carousel-btn:hover {
+  background: #f4623a;
+  border-color: #f4623a;
+  color: #fff;
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer {
@@ -553,5 +623,15 @@ header.masthead .h1 {
   .project-card,
   .journey-card {
     padding: 1.5rem;
+  }
+
+  .cert-card {
+    flex: 0 0 240px;
+  }
+
+  .cert-carousel-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 0.8rem;
   }
 }

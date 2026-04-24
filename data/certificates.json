@@ -1,0 +1,154 @@
+[
+  {
+    "title": "Introduction to Next.js Ecommerce - Setting Up the Basics",
+    "issuer": "Packt",
+    "date": "Nov 2025",
+    "credentialId": "IOGXLU5MG0HR",
+    "description": "Built a full-stack ecommerce storefront with Next.js, covering project setup, routing, and component architecture.",
+    "verifyUrl": null
+  },
+  {
+    "title": "Advanced React",
+    "issuer": "Meta",
+    "date": "Sep 2025",
+    "credentialId": "GPCN399L6502",
+    "description": "Explored advanced React patterns including hooks, render props, higher-order components, and performance optimization.",
+    "verifyUrl": "https://www.coursera.org/verify/GPCN399L6502"
+  },
+  {
+    "title": "Introduction to Next.js",
+    "issuer": "Coursera",
+    "date": "Oct 2025",
+    "credentialId": "45XSQ1NGF9M9",
+    "description": "Learned the fundamentals of Next.js including server-side rendering, file-based routing, and API routes.",
+    "verifyUrl": "https://www.coursera.org/verify/45XSQ1NGF9M9"
+  },
+  {
+    "title": "React Basics",
+    "issuer": "Meta",
+    "date": "Aug 2025",
+    "credentialId": "MBHW0FVJPXY2",
+    "description": "Built a solid foundation in React including JSX, components, props, state, and event handling.",
+    "verifyUrl": "https://www.coursera.org/verify/MBHW0FVJPXY2"
+  },
+  {
+    "title": "Basic Skills in Constructive Communication",
+    "issuer": "Coursera",
+    "date": "Nov 2024",
+    "credentialId": "BCBUPB34BNIG",
+    "description": "Developed professional communication skills for effective teamwork and collaboration in tech environments.",
+    "verifyUrl": "https://www.coursera.org/verify/BCBUPB34BNIG"
+  },
+  {
+    "title": "Web Development",
+    "issuer": "NEN",
+    "date": "Aug 2024",
+    "credentialId": "33860856E15",
+    "description": "Completed a comprehensive web development program covering full-stack fundamentals and best practices.",
+    "verifyUrl": null
+  },
+  {
+    "title": "HTML and CSS in Depth",
+    "issuer": "Meta",
+    "date": "Aug 2024",
+    "credentialId": "1Q64KAQSQIJ5",
+    "description": "Deep dive into semantic HTML, CSS layout techniques, animations, and responsive design patterns.",
+    "verifyUrl": "https://www.coursera.org/verify/1Q64KAQSQIJ5"
+  },
+  {
+    "title": "Version Control",
+    "issuer": "Meta",
+    "date": "Apr 2024",
+    "credentialId": "HMRC2KL24CUA",
+    "description": "Mastered Git workflows including branching, merging, rebasing, and collaborative version control with GitHub.",
+    "verifyUrl": "https://www.coursera.org/verify/HMRC2KL24CUA"
+  },
+  {
+    "title": "Programming with JavaScript",
+    "issuer": "Meta",
+    "date": "Jan 2024",
+    "credentialId": "YYN3FZWFYR7U",
+    "description": "Covered core JavaScript concepts including data structures, functions, OOP, and the testing fundamentals.",
+    "verifyUrl": "https://www.coursera.org/verify/YYN3FZWFYR7U"
+  },
+  {
+    "title": "Introduction to Front-End Development",
+    "issuer": "Meta",
+    "date": "Sep 2023",
+    "credentialId": "4HRU389SLRT7",
+    "description": "Gained foundational knowledge of front-end technologies, UI frameworks, and the web development ecosystem.",
+    "verifyUrl": "https://www.coursera.org/verify/4HRU389SLRT7"
+  },
+  {
+    "title": "JavaScript Basics",
+    "issuer": "Coursera",
+    "date": "Mar 2022",
+    "credentialId": "JRNLXUBGEF7B",
+    "description": "Learned JavaScript fundamentals including variables, control flow, functions, arrays, and DOM manipulation.",
+    "verifyUrl": "https://www.coursera.org/verify/JRNLXUBGEF7B"
+  },
+  {
+    "title": "Introduction to Structured Query Language (SQL)",
+    "issuer": "Coursera",
+    "date": "Dec 2021",
+    "credentialId": "WFK9YYPCXDL9",
+    "description": "Practiced writing SQL queries for data retrieval, filtering, joining tables, and basic database operations.",
+    "verifyUrl": "https://www.coursera.org/verify/WFK9YYPCXDL9"
+  },
+  {
+    "title": "Building Web Applications in PHP",
+    "issuer": "Coursera",
+    "date": "Nov 2021",
+    "credentialId": "6SV5UYB77RPR",
+    "description": "Built server-side web applications with PHP covering forms, sessions, databases, and MVC architecture.",
+    "verifyUrl": "https://www.coursera.org/verify/6SV5UYB77RPR"
+  },
+  {
+    "title": "Web Design for Everybody: Basics of Web Development & Coding Specialization",
+    "issuer": "Coursera",
+    "date": "Sep 2021",
+    "credentialId": "KAZZBD72CPVJ",
+    "description": "Completed a full specialization covering HTML, CSS, JavaScript, and responsive web design fundamentals.",
+    "verifyUrl": "https://www.coursera.org/verify/KAZZBD72CPVJ"
+  },
+  {
+    "title": "Web Design for Everybody Capstone",
+    "issuer": "Coursera",
+    "date": "Sep 2021",
+    "credentialId": "CXZWTEPFYPQA",
+    "description": "Designed and built a complete responsive website as a capstone project applying all learned web skills.",
+    "verifyUrl": "https://www.coursera.org/verify/CXZWTEPFYPQA"
+  },
+  {
+    "title": "Advanced Styling with Responsive Design",
+    "issuer": "Coursera",
+    "date": "Sep 2021",
+    "credentialId": "DGH5QG7SH6UP",
+    "description": "Improved ability to build interfaces that adapt smoothly across screen sizes using modern CSS techniques.",
+    "verifyUrl": "https://www.coursera.org/verify/DGH5QG7SH6UP"
+  },
+  {
+    "title": "Interactivity with JavaScript",
+    "issuer": "Coursera",
+    "date": "Sep 2021",
+    "credentialId": "NQ6LF8BM3MV6",
+    "description": "Practiced adding behavior and engagement to web pages through scripting and event-driven programming.",
+    "verifyUrl": "https://www.coursera.org/verify/NQ6LF8BM3MV6"
+  },
+  {
+    "title": "Introduction to HTML5",
+    "issuer": "Coursera",
+    "date": "Jul 2021",
+    "credentialId": "J9RE6LWKYM5Y",
+    "description": "Learned semantic structure, page organization, and the fundamentals of web markup.",
+    "verifyUrl": "https://www.coursera.org/verify/J9RE6LWKYM5Y"
+  },
+  {
+    "title": "Introduction to CSS3",
+    "issuer": "Coursera",
+    "date": "Aug 2021",
+    "credentialId": "B23EZD8EPES2",
+    "description": "Built styling fundamentals, layout control, and a stronger eye for visual presentation.",
+    "verifyUrl": "https://www.coursera.org/verify/B23EZD8EPES2"
+  }
+]
