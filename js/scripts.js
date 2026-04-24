@@ -51,4 +51,64 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    // ---------- Certificate carousel ----------
+
+    var certCarousel = document.getElementById('certCarousel');
+    if (certCarousel) {
+        fetch('data/certificates.json')
+            .then(function (res) { return res.json(); })
+            .then(function (certs) {
+                certs.forEach(function (cert) {
+                    var card = document.createElement('article');
+                    card.className = 'journey-card text-center cert-card';
+
+                    var icon = document.createElement('i');
+                    icon.className = 'fas fa-certificate';
+                    card.appendChild(icon);
+
+                    var title = document.createElement('h3');
+                    title.className = 'h4 mb-1';
+                    title.textContent = cert.title;
+                    card.appendChild(title);
+
+                    var issuer = document.createElement('span');
+                    issuer.className = 'cert-issuer';
+                    issuer.textContent = cert.issuer + ' \u00B7 ' + cert.date;
+                    card.appendChild(issuer);
+
+                    var desc = document.createElement('p');
+                    desc.textContent = cert.description;
+                    card.appendChild(desc);
+
+                    if (cert.verifyUrl) {
+                        var link = document.createElement('a');
+                        link.className = 'sl';
+                        link.href = cert.verifyUrl;
+                        link.target = '_blank';
+                        link.rel = 'noreferrer';
+                        link.textContent = 'Verify';
+                        card.appendChild(link);
+                    }
+
+                    certCarousel.appendChild(card);
+                });
+
+                // Carousel navigation
+                var prevBtn = document.querySelector('.cert-carousel-btn--prev');
+                var nextBtn = document.querySelector('.cert-carousel-btn--next');
+                var scrollAmount = 320;
+
+                if (prevBtn) {
+                    prevBtn.addEventListener('click', function () {
+                        certCarousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+                    });
+                }
+                if (nextBtn) {
+                    nextBtn.addEventListener('click', function () {
+                        certCarousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+                    });
+                }
+            });
+    }
+
 });
